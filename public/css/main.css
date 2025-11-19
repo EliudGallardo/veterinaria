@@ -1,0 +1,12 @@
+body{
+    background-image: url('../img/cat.jpeg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    background-color: rgba(17, 2, 2, 0.139);
+}
