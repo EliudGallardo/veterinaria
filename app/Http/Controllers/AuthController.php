@@ -64,7 +64,7 @@ class AuthController extends Controller
     public function home()
     {
         $titulo_pagina = 'Dashboard';
-        $usuarios = User::all(); // Todos los usuarios
+        $usuarios = User::all(); 
         return view('modules.dashboard.home', compact('titulo_pagina', 'usuarios'));
     }
 
