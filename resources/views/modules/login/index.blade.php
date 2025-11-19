@@ -17,7 +17,7 @@
                             <label for="password">Password</label>
                             <input type="password" name="password" id="password" class="form-control">
                             <button class="btn btn-dark mt-4">Enter</button>
-                            <a href="{{ route('registro')}}" class="btn btn-dark mt-4">Registrate aqui</a>
+                            <!-- <a href="{{ route('registro')}}" class="btn btn-dark mt-4">Registrate aqui</a> -->
                         </form>
                     </div>
                 </div>
