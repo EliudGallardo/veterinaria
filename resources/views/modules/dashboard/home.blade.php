@@ -9,7 +9,13 @@
             <div class="card">
                 <div class="card-body">
 
+                    
                     <a href="{{ route('logout') }}" class="btn btn-dark mb-3">Salir del sistema</a>
+
+                    
+                    <a href="{{ route('citas.index') }}" class="btn btn-success mb-3">
+                        Administrar Citas
+                    </a>
 
                     <h3 class="mb-3">Administración de usuarios</h3>
 
